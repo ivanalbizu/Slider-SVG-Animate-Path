@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider SVG</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script src="./src/js/script.js" defer></script>
+</head>
+<body>
+<main id="slide">
+  <section class="slides">
+
+    <article data-slide="0" class="slide slide--beauty slide--active">
+      <svg class="svg" viewBox="0 0 1500 750">
+        <clipPath id="clip-00">
+          <path d="">
+            <animate
+              dur=""
+              repeatCount=".5"
+              attributeName="d"
+              restart="whenNotActive"
+              values=""
+              keySplines=""
+              calcMode="spline"
+              fill="freeze">
+          </path>
+        </clipPath>
+        <image clip-path="url(#clip-00)" height="100%" width="100%" xlink:href="https://raw.githubusercontent.com/ivanalbizu/slides-blend-mode/master/img/beauty.jpg" />
+      </svg>
+    </article>
+    <div class="bg-slide bg-slide--beauty bg-slide--active"></div>
+
+    <article data-slide="1" class="slide slide--girl">
+      <svg class="svg" viewBox="0 0 1500 750">
+        <clipPath id="clip-01">
+          <path d="">
+            <animate
+              dur=""
+              repeatCount=".5"
+              attributeName="d"
+              restart="whenNotActive"
+              values=""
+              keySplines=""
+              calcMode="spline"
+              fill="freeze">
+          </path>
+        </clipPath>
+        <image clip-path="url(#clip-01)" height="100%" width="100%" xlink:href="https://raw.githubusercontent.com/ivanalbizu/slides-blend-mode/master/img/girl.jpg" />
+      </svg>
+    </article>
+    <div class="bg-slide bg-slide--girl"></div>
+
+    <article data-slide="2" class="slide slide--model">
+      <svg class="svg" viewBox="0 0 1500 750">
+        <clipPath id="clip-02">
+          <path d="">
+            <animate
+              dur=""
+              repeatCount=".5"
+              attributeName="d"
+              restart="whenNotActive"
+              values=""
+              keySplines=""
+              calcMode="spline"
+              fill="freeze">
+          </path>
+        </clipPath>
+        <image clip-path="url(#clip-02)" height="100%" width="100%" xlink:href="https://raw.githubusercontent.com/ivanalbizu/slides-blend-mode/master/img/model.jpg" />
+      </svg>
+    </article>
+    <div class="bg-slide bg-slide--model"></div>
+
+    <article data-slide="3" class="slide slide--snoe">
+      <svg class="svg" viewBox="0 0 1500 750">
+        <clipPath id="clip-03">
+          <path d="">
+            <animate
+              dur=""
+              repeatCount=".5"
+              attributeName="d"
+              restart="whenNotActive"
+              values=""
+              keySplines=""
+              calcMode="spline"
+              fill="freeze">
+          </path>
+        </clipPath>
+        <image clip-path="url(#clip-03)" height="100%" width="100%" xlink:href="https://raw.githubusercontent.com/ivanalbizu/slides-blend-mode/master/img/snow.jpg" />
+      </svg>
+    </article>
+    <div class="bg-slide bg-slide--snow"></div>
+
+    <article data-slide="4" class="slide slide--woman">
+      <svg class="svg" viewBox="0 0 1500 750">
+        <clipPath id="clip-04">
+          <path d="">
+            <animate
+              dur=""
+              repeatCount=".5"
+              attributeName="d"
+              restart="whenNotActive"
+              values=""
+              keySplines=""
+              calcMode="spline"
+              fill="freeze">
+            </path>
+        </clipPath>
+        <image clip-path="url(#clip-04)" height="100%" width="100%" xlink:href="https://raw.githubusercontent.com/ivanalbizu/slides-blend-mode/master/img/woman.jpg" />
+      </svg>
+    </article>
+    <div class="bg-slide bg-slide--woman"></div>
+
+  </section>
+  
+  <nav class="nav">
+    <button class="slide__left btn" data-goto="3" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H6M12 5l-7 7 7 7"/></svg>
+    </button>
+    <ul class="slide__nav">
+      <li><button class="btn btn--active js-nav" data-goto="0" type="button"><span class="visually-hidden">Slide </span>1</button></li>
+      <li><button class="btn js-nav" data-goto="1" type="button"><span class="visually-hidden">Slide </span>2</button></li>
+      <li><button class="btn js-nav" data-goto="2" type="button"><span class="visually-hidden">Slide </span>3</button></li>
+      <li><button class="btn js-nav" data-goto="3" type="button"><span class="visually-hidden">Slide </span>4</button></li>
+      <li><button class="btn js-nav" data-goto="4" type="button"><span class="visually-hidden">Slide </span>5</button></li>
+    </ul>
+    <button class="slide__right btn" data-goto="1" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+    </button>
+  </nav>
+</main>
+<div class="open-modal">
+  <button class="js-open-modal" type="button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+  </button>
+  <button class="js-close-modal" type="button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </button>
+</div>
+<div class="modal">
+  <div class="modal__content">
+    <section class="section section--active">
+      <p class="section__title">Quadratic bottom</p>
+      <img src="./src/img/quadratic-bottom.png" alt="">
+      <footer class="dur">
+        <label class="label-dur">
+          Tiempo animación (ms)
+          <input class="btn-dur js-btn-dur" type="number" min="100" max="30000" value="1800">
+        </label>
+        <button class="btn-save" data-setting="setting01" type="button">Usar</button>
+      </footer>
+    </section>
+    <section class="section">
+      <p class="section__title">Quadratic left</p>
+      <img src="./src/img/quadratic-left.png" alt="">
+      <footer class="dur">
+        <label class="label-dur">
+          Tiempo animación (ms)
+          <input class="btn-dur js-btn-dur" type="number" min="100" max="30000" value="2000">
+        </label>
+        <button class="btn-save" data-setting="setting02" type="button">Usar</button>
+      </footer>
+    </section>
+    <section class="section">
+      <p class="section__title">Curve</p>
+      <img src="./src/img/curve.png" alt="">
+      <footer class="dur">
+        <label class="label-dur">
+          Tiempo animación (ms)
+          <input class="btn-dur js-btn-dur" type="number" min="100" max="30000" value="2300">
+        </label>
+        <button class="btn-save" data-setting="setting03" type="button">Usar</button>
+      </footer>
+    </section>
+    <section class="section">
+      <p class="section__title">Morph</p>
+      <img src="./src/img/morph.png" alt="">
+      <footer class="dur">
+        <label class="label-dur">
+          Tiempo animación (ms)
+          <input class="btn-dur js-btn-dur" type="number" min="100" max="30000" value="2500">
+        </label>
+        <button class="btn-save" data-setting="setting04" type="button">Usar</button>
+      </footer>
+    </section>
+    <section class="section">
+      <p class="section__title">Rhombus</p>
+      <img src="./src/img/rhombus.png" alt="">
+      <footer class="dur">
+        <label class="label-dur">
+          Tiempo animación (ms)
+          <input class="btn-dur js-btn-dur" type="number" min="100" max="30000" value="1500">
+        </label>
+        <button class="btn-save" data-setting="setting05" type="button">Usar</button>
+      </footer>
+    </section>
+  </div>
+</div>
+</body>
+</html>
